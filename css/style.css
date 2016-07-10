@@ -12,8 +12,17 @@ body {
     margin: 10px;
     padding: 6px; }
     #team-members .member img {
+      -webkit-transition: all 1s ease;
+      -moz-transition: all 1s ease;
+      -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+      transition: all 1s ease;
       width: 200px;
       height: 200px; }
+    #team-members .member img:hover {
+      width: 210px;
+      height: 210px;
+      opacity: 0.9; }
     #team-members .member div.name {
       text-align: center; }
 
